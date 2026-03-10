@@ -1,0 +1,20 @@
+# IDEs
+.idea/
+.vscode/
+*.iml
+
+# Node / Frontend
+frontend/node_modules/
+node_modules/
+dist/
+
+# Java / Maven / Backend
+backend/target/
+target/
+
+# Testing / Temporary payloads
+payload.json
+test.js
+post_output.json
+*output.json
+C*UsersUSERDownloadsjavapropost_output.json
