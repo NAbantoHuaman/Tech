@@ -1,0 +1,16 @@
+C:\Users\USER\Downloads\javapro\backend\src\main\java\com\soporte\api\config\WebConfig.java
+C:\Users\USER\Downloads\javapro\backend\src\main\java\com\soporte\api\controller\SolicitudController.java
+C:\Users\USER\Downloads\javapro\backend\src\main\java\com\soporte\api\dto\SolicitudRequestDTO.java
+C:\Users\USER\Downloads\javapro\backend\src\main\java\com\soporte\api\repository\SolicitudRepository.java
+C:\Users\USER\Downloads\javapro\backend\src\main\java\com\soporte\api\SoporteApiApplication.java
+C:\Users\USER\Downloads\javapro\backend\src\main\java\com\soporte\api\model\EstadoSolicitud.java
+C:\Users\USER\Downloads\javapro\backend\src\main\java\com\soporte\api\service\impl\SolicitudServiceImpl.java
+C:\Users\USER\Downloads\javapro\backend\src\main\java\com\soporte\api\service\SolicitudService.java
+C:\Users\USER\Downloads\javapro\backend\src\main\java\com\soporte\api\util\SolicitudMapper.java
+C:\Users\USER\Downloads\javapro\backend\src\main\java\com\soporte\api\exception\GlobalExceptionHandler.java
+C:\Users\USER\Downloads\javapro\backend\src\main\java\com\soporte\api\model\Solicitud.java
+C:\Users\USER\Downloads\javapro\backend\src\main\java\com\soporte\api\repository\impl\SolicitudRepositoryImpl.java
+C:\Users\USER\Downloads\javapro\backend\src\main\java\com\soporte\api\model\Cliente.java
+C:\Users\USER\Downloads\javapro\backend\src\main\java\com\soporte\api\dto\SolicitudResponseDTO.java
+C:\Users\USER\Downloads\javapro\backend\src\main\java\com\soporte\api\model\Tecnico.java
+C:\Users\USER\Downloads\javapro\backend\src\main\java\com\soporte\api\exception\RecursoNoEncontradoException.java

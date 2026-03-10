@@ -1,0 +1,8 @@
+{
+  "descripcion": "Mi computadora no enciende despues de una actualización y la pantalla parpadea constantemente.",
+  "estado": "PENDIENTE",
+  "cliente": {
+    "nombre": "Juan Perez",
+    "email": "juan.perez@example.com"
+  }
+}
