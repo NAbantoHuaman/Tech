@@ -8,19 +8,17 @@ import com.soporte.api.repository.SolicitudRepository;
 import com.soporte.api.service.SolicitudService;
 import com.soporte.api.util.SolicitudMapper;
 import org.springframework.stereotype.Service;
+import lombok.RequiredArgsConstructor;
 
 import java.time.LocalDateTime;
 import java.util.List;
 import java.util.stream.Collectors;
 
 @Service
+@RequiredArgsConstructor
 public class SolicitudServiceImpl implements SolicitudService {
 
     private final SolicitudRepository repositorio;
-
-    public SolicitudServiceImpl(SolicitudRepository repositorio) {
-        this.repositorio = repositorio;
-    }
 
     @Override
     public SolicitudResponseDTO crear(SolicitudRequestDTO solicitudDTO) {
@@ -63,13 +61,9 @@ public class SolicitudServiceImpl implements SolicitudService {
         }
 
         if (solicitudActualizada.getTecnicoAsignado() != null) {
-            // Si la base de datos ya tenía un técnico con un ID con anterioridad,
-            // conservarlo
             if (existente.getTecnicoAsignado() != null && existente.getTecnicoAsignado().getId() != null) {
                 solicitudActualizada.getTecnicoAsignado().setId(existente.getTecnicoAsignado().getId());
             }
-            // Asigna el nuevo técnico modificado (con o sin ID)
-            // Si el ID es nulo, el Repository se encargará de crearle uno automáticamente
             existente.setTecnicoAsignado(solicitudActualizada.getTecnicoAsignado());
         }
 

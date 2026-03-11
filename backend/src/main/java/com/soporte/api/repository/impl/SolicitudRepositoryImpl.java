@@ -27,8 +27,6 @@ public class SolicitudRepositoryImpl implements SolicitudRepository {
             }
         }
 
-        // Asignar ID al técnico tanto en CREATE como en UPDATE (PUT) si aún no tiene
-        // uno
         if (solicitud.getTecnicoAsignado() != null && solicitud.getTecnicoAsignado().getId() == null) {
             solicitud.getTecnicoAsignado().setId(generadorIds.getAndIncrement());
         }
