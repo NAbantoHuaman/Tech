@@ -6,7 +6,7 @@ Este proyecto es una aplicación web para la gestión de solicitudes de soporte 
 
 ### Backend
 - **Java 21**
-- **Spring Boot 3.2.4**
+- **Spring Boot 3.5.11**
 - **Maven** (Wrapper incluido)
 - **Lombok** (Para simplificar el código)
 - **Spring Validation** (Validación de datos)
